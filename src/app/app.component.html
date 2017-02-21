@@ -1,3 +1,31 @@
-<h1>
-  {{title}}
-</h1>
+<div class="page-wrapper">
+  <header class="header">
+    <app-top-navbar></app-top-navbar>
+  </header>
+
+  <div class="body">
+    <div class="widgets-menu-container">
+      <app-side-navbar></app-side-navbar>    
+    </div>
+    
+    <div class="space-for-hide-menu"></div>
+
+    <div class="ajax-container">
+      <div class="tools-panel">
+        <div class="breadcrumbs">
+          <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="view-content">        
+        <div class="simulator-wrapper">
+          <app-login></app-login>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+</div>
